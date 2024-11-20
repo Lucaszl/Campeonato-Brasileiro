@@ -1,0 +1,41 @@
+main{
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    width: 600px;
+    height: 85em;
+    background-color: white;
+    border-radius: 8px;
+    padding: 3em;
+}
+.imagem{
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+.botao{
+    background-color: #000000;
+    border: 2px solid #000000;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+h3{
+    font-family: arial;
+}
